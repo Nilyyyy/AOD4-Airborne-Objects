@@ -46,7 +46,7 @@ Amaç: Havada görülen cisimleri **(airplane, helicopter, drone, bird)** derin 
 
 ---
 
-## 🚀 Kullanım Alanları
+## Kullanım Alanları
 
 Bu model gerçek hayatta şu alanlarda kullanılabilir:
 
