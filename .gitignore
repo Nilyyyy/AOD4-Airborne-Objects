@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+env/
+venv/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints
+
+# Kaggle metadata
+.kaggle/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model weights / outputs (istersen özel tutabilirsin)
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# Temporary files
+*.zip
