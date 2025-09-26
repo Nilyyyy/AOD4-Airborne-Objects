@@ -1,11 +1,11 @@
-# 🛫 AOD-4 Airborne Objects Detection & Classification
+# AOD-4 Airborne Objects Detection & Classification
 
 Bu proje, **Akbank Derin Öğrenme Bootcamp (Eylül 2025)** kapsamında geliştirilmiştir.  
 Amaç: Havada görülen cisimleri **(airplane, helicopter, drone, bird)** derin öğrenme yöntemleri ile **algılamak ve sınıflandırmak**.
 
 ---
 
-## 📂 İçerik
+##  İçerik
 
 - **YOLOv8** tabanlı nesne algılama modeli  
 - **ResNet50** tabanlı sınıflandırma modeli  
@@ -15,7 +15,7 @@ Amaç: Havada görülen cisimleri **(airplane, helicopter, drone, bird)** derin 
 
 ---
 
-## 🗂️ Veri Seti
+##  Veri Seti
 
 - **Kaynak:** [AOD-4 (Airborne Objects Dataset)](https://www.kaggle.com/)  
 - **Sınıflar:** `airplane`, `helicopter`, `drone`, `bird`  
@@ -26,7 +26,7 @@ Amaç: Havada görülen cisimleri **(airplane, helicopter, drone, bird)** derin 
 
 ---
 
-## 🛠️ Kullanılan Yöntemler
+##  Kullanılan Yöntemler
 
 - **YOLOv8n** modeli ile transfer learning yapıldı.  
 - Görüntüler 640×640 boyutuna ölçeklendi; veri artırma (augmentation) uygulandı.  
@@ -37,7 +37,7 @@ Amaç: Havada görülen cisimleri **(airplane, helicopter, drone, bird)** derin 
 
 
 
-## 📊 Sonuçlar
+##  Sonuçlar
 
 - YOLOv8 modeli temel konfigürasyonda tatmin edici **mAP50-95 / Precision / Recall** sonuçları verdi.  
 - Confusion Matrix analizine göre en çok karışan sınıflar **drone ↔ bird** oldu.  
@@ -59,7 +59,7 @@ Bu sayede **hava sahası güvenliğini artırma** ve **otonom izleme sistemlerin
 
 ---
 
-## 🧪 Çalıştırma
+##  Çalıştırma
 
 ```bash
 pip install ultralytics torch torchvision torchcam matplotlib
